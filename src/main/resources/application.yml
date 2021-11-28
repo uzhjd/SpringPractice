@@ -1,0 +1,17 @@
+sever:
+  port: 80
+---
+spring:
+  profiles: local
+sever:
+  port: 8080
+---
+spring:
+  profiles: dev
+sever:
+  port: 8081
+---
+spring:
+  profiles: real
+sever:
+  port: 8082
